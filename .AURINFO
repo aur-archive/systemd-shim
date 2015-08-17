@@ -1,0 +1,15 @@
+pkgbase = systemd-shim
+	pkgdesc = shim for systemd
+	pkgver = 7_3
+	pkgrel = 1
+	url = https://launchpad.net/ubuntu/+source/systemd-shim
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = cgmanager
+	provides = systemd=216
+	source = https://launchpad.net/ubuntu/+archive/primary/+files/systemd-shim_7.orig.tar.xz
+	source = https://launchpad.net/ubuntu/+archive/primary/+files/systemd-shim_7-3.debian.tar.xz
+
+pkgname = systemd-shim
+
